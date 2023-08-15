@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nba-dataset-lab"
+version = "0.1.0"
+description = ""
+authors = ["afoshiok <89757138+afoshiok@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "nba_dataset_lab"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
